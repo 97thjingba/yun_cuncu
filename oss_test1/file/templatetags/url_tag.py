@@ -31,11 +31,13 @@ def get_tag_url(object_):
     print(url_list)
     return url_list[object_]
 
-
 @register.simple_tag
-def dic_to_json(dic):
-    json_str = json.dumps(dic, ensure_ascii=False)
-    return json_str
+def get_singer(object_):
+    pass
+
+
+# def get_src(object_):
+#     pass
 
 
 
